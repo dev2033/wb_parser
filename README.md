@@ -15,11 +15,12 @@
     cd wb_parser/
     ```
 
-3. Установить и активировать виртуальное окружение:
+3. Установить и активировать виртуальное окружение и установить зависимости:
     
     ```bash
     python3 -m venv env
     source env/bin/activate
+    pip install -r requirements.txt
     ```
    
 4. Перейти в дирикторию `src/` и запустить файл `main.py`:
